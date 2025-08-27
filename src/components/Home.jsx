@@ -96,7 +96,7 @@ const Home = () => {
           </div>
 
           {/* Footer Section */}
-          <div className="fixed bottom-0 w-full lg:hidden p-4 md:px-8 border-t">
+          <div className="w-full lg:hidden p-4 md:px-8 border-t">
             <Footer
               questions={questions}
               currentQuestion={currentQuestion}

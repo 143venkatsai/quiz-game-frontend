@@ -12,7 +12,7 @@ const Sidebar = ({
   return (
     // Question palette Section
     <>
-      <div className="flex flex-col h-full">
+      <div className="flex flex-col">
         <div className="bg-blue-300 flex items-center justify-between p-4 md:px-6">
           <div className="flex items-center">
             <img

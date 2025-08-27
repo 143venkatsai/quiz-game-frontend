@@ -115,7 +115,7 @@ const Home = () => {
 
           {/* Mobile and tabelt view Toggle Section */}
           {toggleButton && (
-            <div className="absolute z-50 lg:hidden bg-gray-200">
+            <div className="fixed h-[80vh] overflow-y-auto bottom-0 z-50 lg:hidden bg-gray-200">
               <Sidebar
                 palleteQuestion={changePalleteQuestion}
                 toggleButton={toggleButton}

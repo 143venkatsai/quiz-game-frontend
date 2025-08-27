@@ -54,7 +54,7 @@ const Home = () => {
           className="flex flex-col lg:flex-row"
           // style={{ height: "90vh" }}
         >
-          <div className="flex flex-col justify-between flex-1">
+          <div className="flex flex-col justify-between h-screen flex-1">
             <div className="flex flex-col p-4 md:px-8 py-4">
               <p className="font-mono text-gray-500 text-lg mb-1">
                 Question {present.id} of 20 |{" "}
@@ -70,7 +70,7 @@ const Home = () => {
             </div>
 
             {/* Question pagination */}
-            <div className="flex justify-between items-center lg:border-t p-4 md:px-8 py-4 mb-0">
+            <div className="flex justify-between items-center lg:border-t p-4 md:px-8 py-4 mt-auto">
               <div className="flex">
                 <button
                   className={`bg-gray-200 px-3 md:px-4 py-2 rounded-md mr-2 md:mr-5 ${currentQuestion !== 0 ? "cursor-pointer" : ""}`}

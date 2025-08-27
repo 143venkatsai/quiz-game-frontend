@@ -37,7 +37,7 @@ const Navbar = ({ category }) => {
             {formatTime(timeLeft)}
           </h1>
         </div>
-        <button className="bg-red-500 text-white px-4 py-2 rounded-lg cursor-pointer">
+        <button className="bg-red-500 text-white px-4 py-2 rounded-md cursor-pointer">
           Submit
         </button>
       </div>

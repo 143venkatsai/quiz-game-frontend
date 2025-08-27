@@ -50,11 +50,8 @@ const Home = () => {
         <Navbar category={present.category} />
 
         {/* Main section */}
-        <div
-          className="flex flex-col lg:flex-row"
-          // style={{ height: "90vh" }}
-        >
-          <div className="flex flex-col justify-between flex-1 min-h-[calc(100vh-/*navbar height*/)]">
+        <div className="flex flex-col lg:flex-row" style={{ height: "90vh" }}>
+          <div className="flex flex-col justify-between flex-1 ">
             <div className="flex flex-col p-4 md:px-8 py-4 flex-grow">
               <p className="font-mono text-gray-500 text-lg mb-1">
                 Question {present.id} of 20 |{" "}

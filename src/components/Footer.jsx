@@ -21,7 +21,7 @@ const Footer = ({ questions, currentQuestion, onSelect, onToggleButton }) => {
   return (
     // Footer Section Mobile question palette Section
     <>
-      <footer className="flex justify-between items-center w-full">
+      <footer className="flex justify-between items-center">
         <ul className="flex overflow-x-auto space-x-2 gap-2 no-scrollbar items-center bg-white">
           {visibleQuestions.map((eachQuestion) => (
             <li key={eachQuestion.id}>

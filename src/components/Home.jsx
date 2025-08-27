@@ -52,7 +52,7 @@ const Home = () => {
         {/* Main section */}
         <div
           className="flex flex-col lg:flex-row"
-          style={{ height: "calc(100vh - 15vh)" }}
+          style={{ height: "calc(100vh - 10vh)" }}
         >
           <div className="flex flex-col justify-between flex-1">
             <div className="flex flex-col p-4 md:px-8 py-4">

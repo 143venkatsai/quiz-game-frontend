@@ -29,7 +29,7 @@ const Navbar = ({ category }) => {
 
   return (
     <>
-      <div className="flex justify-between items-center p-4 border-b h-[10vh]">
+      <div className="flex justify-between items-center p-4 border-b">
         <h1 className="text-2xl font-semibold">{category}</h1>
         <div className="hidden md:flex items-center">
           <BsStopwatch className="text-xl mr-2" />

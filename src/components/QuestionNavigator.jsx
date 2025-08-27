@@ -14,6 +14,7 @@ const QuestionNaigator = ({
   // console.log(currentQuestion);
 
   return (
+    // Question Navigation container
     <>
       <div className="flex flex-col px-4 py-6 md:px-6">
         <h1 className="text-center font-semibold">Choose a Questions</h1>

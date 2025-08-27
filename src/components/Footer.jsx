@@ -19,23 +19,26 @@ const Footer = ({ questions, currentQuestion, onSelect, onToggleButton }) => {
   const visibleQuestions = questions.slice(start, end + 1);
 
   return (
-    <footer className="flex justify-between items-center w-full">
-      <ul className="flex overflow-x-auto space-x-2 gap-2 no-scrollbar items-center bg-white">
-        {visibleQuestions.map((eachQuestion) => (
-          <li key={eachQuestion.id}>
-            <button
-              className={`rounded cursor-pointer ${currentQuestion === eachQuestion.id - 1 ? "w-10 h-10 border-2 border-blue-500 bg-blue-50 text-lg shadow" : "w-8 h-8 border border-gray-200 bg-white text-gray-800 hover:border-blue-400"}`}
-              onClick={() => onSelect(eachQuestion.id - 1)}
-            >
-              {eachQuestion.id}
-            </button>
-          </li>
-        ))}
-      </ul>
-      <div>
-        <CiGrid41 size={22} onClick={onToggleButton} />
-      </div>
-    </footer>
+    // Footer Section Mobile question palette Section
+    <>
+      <footer className="flex justify-between items-center w-full">
+        <ul className="flex overflow-x-auto space-x-2 gap-2 no-scrollbar items-center bg-white">
+          {visibleQuestions.map((eachQuestion) => (
+            <li key={eachQuestion.id}>
+              <button
+                className={`rounded cursor-pointer ${currentQuestion === eachQuestion.id - 1 ? "w-10 h-10 border-2 border-blue-500 bg-blue-50 text-lg shadow" : "w-8 h-8 border border-gray-200 bg-white text-gray-800 hover:border-blue-400"}`}
+                onClick={() => onSelect(eachQuestion.id - 1)}
+              >
+                {eachQuestion.id}
+              </button>
+            </li>
+          ))}
+        </ul>
+        <div>
+          <CiGrid41 size={22} onClick={onToggleButton} />
+        </div>
+      </footer>
+    </>
   );
 };
 

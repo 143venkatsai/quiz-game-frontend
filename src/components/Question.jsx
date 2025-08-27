@@ -2,6 +2,7 @@ import React from "react";
 
 const Question = ({ present, selected, setSelected }) => {
   return (
+    // Question
     <>
       <div>
         <h1 className="text-lg">{present.question}</h1>

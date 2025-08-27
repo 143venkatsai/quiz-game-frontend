@@ -51,7 +51,7 @@ const Home = () => {
 
         {/* Main section */}
         <div
-          className="flex flex-col lg:flex-row min-h-screen"
+          className="flex flex-col lg:flex-row h-screen"
           // style={{ height: "90vh" }}
         >
           <div className="flex flex-col justify-between flex-1">

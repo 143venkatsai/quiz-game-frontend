@@ -70,7 +70,7 @@ const Home = () => {
             </div>
 
             {/* Question pagination */}
-            <div className="flex justify-between items-center lg:border-t p-4 md:px-8 py-4 sm:fixed sm:bottom-0">
+            <div className="flex justify-between items-center lg:border-t p-4 md:px-8 py-4">
               <div className="flex">
                 <button
                   className={`bg-gray-200 px-3 md:px-4 py-2 rounded-md mr-2 md:mr-5 ${currentQuestion !== 0 ? "cursor-pointer" : ""}`}
@@ -96,7 +96,7 @@ const Home = () => {
           </div>
 
           {/* Footer Section */}
-          <div className="flex lg:hidden p-4 md:px-8 border-t">
+          <div className="fixed bottom-0 lg:hidden p-4 md:px-8 border-t">
             <Footer
               questions={questions}
               currentQuestion={currentQuestion}

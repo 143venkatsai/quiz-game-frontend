@@ -55,7 +55,7 @@ const Home = () => {
           // style={{ height: "90vh" }}
         >
           <div className="flex flex-col justify-between flex-1">
-            <div className="flex flex-col p-4 md:px-8 py-4">
+            <div className="flex flex-col flex-1 p-4 md:px-8 py-4">
               <p className="font-mono text-gray-500 text-lg mb-1">
                 Question {present.id} of 20 |{" "}
                 <span className="text-green-500">1 Mark</span>

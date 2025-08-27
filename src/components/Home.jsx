@@ -45,14 +45,14 @@ const Home = () => {
 
   return (
     <>
-      <div className="flex flex-col" style={{ height: "calc(100vh-20vh)" }}>
+      <div className="flex flex-col">
         {/* Navbar */}
         <Navbar category={present.category} />
 
         {/* Main section */}
         <div
           className="flex flex-col lg:flex-row"
-          // style={{ height: "calc(100vh - 10vh)" }}
+          style={{ height: "calc(100vh - 15vh)" }}
         >
           <div className="flex flex-col justify-between flex-1">
             <div className="flex flex-col p-4 md:px-8 py-4">
